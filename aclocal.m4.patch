@@ -1,0 +1,13 @@
+diff --git a/aclocal.m4 b/aclocal.m4
+index 958622c..1d88132 100644
+--- a/aclocal.m4
++++ b/aclocal.m4
+@@ -221,7 +221,7 @@ AC_DEFUN([FPTOOLS_SET_HASKELL_PLATFORM_VARS],
+ 
+     checkVendor() {
+         case [$]1 in
+-        dec|unknown|hp|apple|next|sun|sgi|ibm|montavista|portbld)
++        dec|unknown|hp|apple|next|sun|sgi|ibm|montavista|portbld|poky)
+             ;;
+         *)
+             echo "Unknown vendor [$]1"
